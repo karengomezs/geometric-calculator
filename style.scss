@@ -16,7 +16,7 @@ body {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        opacity: 80%;
+        opacity: 50%;
     }
     &__header {
         display: flex;
@@ -37,6 +37,7 @@ body {
     &__paragraph--small {
         font-size: 1rem;
         margin: 0 2px 0 60px;
+        color: black;
     }
     &__container {
         display: flex;
@@ -46,5 +47,33 @@ body {
         width: 50%;
         align-items: center;
         margin: 20px auto;
+        border-radius: 10px;
+        background-color: white;
+        margin-bottom: 20px;
+    }
+    &__figure {
+        font-size: 1rem;
+    }
+    &__options {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 60px;
+    }
+    &__geometric {
+        width: 20%;
+        height: 300px;
+        background-color: pink;
+        display: flex;
+        flex-direction: column;
+        //align-items: center;
+    }
+    &__form {
+        flex: 1;
+        display: grid;
+        grid-auto-flow: row;
+        justify-items: center;
+    }
+    &__subtitle {
+        margin: 20px auto 30px auto;
     }
 }
