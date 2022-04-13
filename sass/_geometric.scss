@@ -6,6 +6,7 @@
         flex-direction: column;
         border-radius: 15px;
         padding-bottom: 20px;
+        display: none;
         &__form {
             flex: 1;
             display: grid;
@@ -38,5 +39,11 @@
             border-radius: 10px;
             background-color: rgb(207, 186, 226);
             border: none;
+            &:hover {
+                @extend %background;
+            }
+        }
+        &--active {
+            display: initial;
         }
     }

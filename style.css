@@ -63,19 +63,39 @@ body {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  background-color: grey;
-  width: 50%;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: grey;
+  width: 50%;
+  height: 70px;
   margin: 20px auto;
   border-radius: 10px;
   background-color: white;
-  margin-bottom: 20px;
+}
+
+.content__container__container--space {
+  margin-left: 80px;
 }
 
 .content__figure {
   font-size: 1rem;
+}
+
+.content__fig {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: #ddc8f1;
 }
 
 .content__options {
@@ -85,6 +105,11 @@ body {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   margin-top: 40px;
+}
+
+.content__fig:hover, .geometric__button:hover {
+  cursor: pointer;
+  background-color: #f8cbf8;
 }
 
 .geometric {
@@ -100,6 +125,7 @@ body {
           flex-direction: column;
   border-radius: 15px;
   padding-bottom: 20px;
+  display: none;
 }
 
 .geometric__form {
@@ -147,5 +173,9 @@ body {
   border-radius: 10px;
   background-color: #cfbae2;
   border: none;
+}
+
+.geometric--active {
+  display: initial;
 }
 /*# sourceMappingURL=style.css.map */
