@@ -84,13 +84,13 @@ body {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 60px;
+  margin-top: 40px;
 }
 
-.content__geometric {
+.geometric {
   width: 20%;
-  height: 300px;
-  background-color: pink;
+  height: 400px;
+  background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -98,9 +98,11 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-radius: 15px;
+  padding-bottom: 20px;
 }
 
-.content__form {
+.geometric__form {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
@@ -110,7 +112,40 @@ body {
   justify-items: center;
 }
 
-.content__subtitle {
-  margin: 20px auto 30px auto;
+.geometric__subtitle {
+  margin: 20px auto 10px auto;
+  font-size: 1.6rem;
+}
+
+.geometric__form {
+  font-size: 1rem;
+}
+
+.geometric__enounce {
+  text-align: center;
+}
+
+.geometric__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.geometric__input {
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+}
+
+.geometric__button {
+  font-size: 1rem;
+  height: 30px;
+  width: 200px;
+  border-radius: 10px;
+  background-color: #cfbae2;
+  border: none;
 }
 /*# sourceMappingURL=style.css.map */

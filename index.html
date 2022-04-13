@@ -40,72 +40,102 @@
 
     <div class="content__options">
 
-        <div class="content__geometric">
-            <h2 class="content__subtitle">Cuadrado</h2>
-            <!-- <div class="content__label"> -->
-            <form class="content__form" action="">
-                <div class="content__enounce">
+        <div class="geometric">
+            <h2 class="geometric__subtitle">Square</h2>
+            <form class="geometric__form" action="">
+                <div class="geometric__item geometric__enounce">
                     <label for="InputCuadrado">
                         Type the length of each side of the square
-                        </label>
+                    </label>
                 </div>
-                <div class="content__input">
-                    <input id="InputCuadrado " type="number ">
+                <div class="geometric__item">
+                    <input class="geometric__input" id="InputCuadrado" type="number ">
                 </div>
-                <div class="content__button">
-                    <button type="button " onclick="calcularAreaCuadrado() ">calcular área</button><br>
+                <div class="geometric__item">
+                    <button class="geometric__button" type="button" onclick="calcularAreaCuadrado() ">Get Area</button>
                 </div>
-                <div class="content__button">
-                    <button type="button " onclick="calcularPerimetroCuadrado() ">calcular perímetro</button>
+                <div class="geometric__item ">
+                    <button class="geometric__button" type="button " onclick="calcularPerimetroCuadrado() ">Get perimeter</button>
+
                 </div>
             </form>
-            <!-- </div> -->
         </div>
 
         <!-- triangulo -->
 
-        <div class="content__geometric">
-            <h2>Triángulo</h2>
-            <form action=" ">
-                <label for="InputTrianguloLado "> 
-                Escribe cuanto mide cada lado de tu triangulo:
-            </label>
+        <div class="geometric">
+            <h2 class="geometric__subtitle">Triangle</h2>
+            <form class="geometric__form" action=" ">
+                <div class="geometric__item geometric__enounce">
+                    <label for="InputTrianguloLado">
+                        How long is each side of your triangle?
+                    </label>
+                </div>
 
-                <input id="InputTrianguloLado " type="number ">
+                <div class="geometric__item">
+                    <input class="geometric__input" id="InputTrianguloLado" type="number ">
+                </div>
 
-                <label for="InputTrianguloBase ">
-                Escribe cuanto mide la base de tu triangulo:   
-            </label>
+                <div class="geometric__item geometric__enounce">
+                    <label for="InputTrianguloBase">
+                        How big is the base of your triangle
+                    </label>
+                </div>
 
-                <input id="InputTrianguloBase " type="number ">
+                <div class="geometric__item">
+                    <input class="geometric__input" id="InputTrianguloBase" type="number ">
+                </div>
 
-                <label for="InputTrianguloAltura ">
-                Escribe cuanto mide la altura de tu triangulo:   
-            </label>
 
-                <input id="InputTrianguloAltura " type="number ">
+                <div class="geometric__item geometric__enounce">
+                    <label for="InputTrianguloAltura">
+                        what is the height of your triangle
+                    </label>
+                </div>
 
-                <button type="button " onclick="calcularAreaTriangulo() ">Calcular área</button>
-                <button type="button " onclick="calcularPerimetroTriangulo() ">Calcular perímetro</button>
+                <div class="geometric__item">
+                    <input class="geometric__input" id="InputTrianguloAltura" type="number ">
+                </div>
+
+                <div class="geometric__item">
+                    <button class="geometric__button" type="button " onclick="calcularAreaTriangulo() ">Get Area</button>
+                </div>
+                <div class="geometric__item ">
+                    <button class="geometric__button" type="button " onclick="calcularPerimetroTriangulo() ">Get Perimeter</button>
+                </div>
+
             </form>
         </div>
 
         <!-- circulo -->
 
-        <div class="content__geometric">
-            <h2>calcula el diámetro, perimetro y area de un círculo</h2>
-            <form action=" ">
-                <label for="InputCirculoRadio "> 
-                Escribe cuanto mide el radio de tu círculo:
-            </label>
-                <input id="InputCirculoRadio " type="number ">
+        <div class="geometric">
+            <h2 class="geometric__subtitle">Circle</h2>
+            <form class="geometric__form" action=" ">
+                <div class="geometric__item geometric__enounce">
+                    <label for="InputCirculoRadio">
+                        What is the radius of your circle
+                    </label>
+                </div>
 
-                <button type="button " onclick="calcularAreaCirculo() ">Calcular área</button>
-                <button type="button " onclick="calcularPerimetroCirculo() ">Calcular perímetro</button>
-                <button type="button " onclick="calcularDiametroCirculo() ">Calcular diámetro</button>
+                <div class="geometric__item">
+                    <input class="geometric__input" id="InputCirculoRadio" type="number ">
+                </div>
+
+                <div class="geometric__item">
+                    <button class="geometric__button" type="button " onclick="calcularAreaCirculo() ">Get Area</button>
+                </div>
+
+                <div class="geometric__item">
+                    <button class="geometric__button" type="button " onclick="calcularPerimetroCirculo() ">Get Perimeter</button>
+                </div>
+
+                <div class="geometric__item">
+                    <button class="geometric__button" type="button " onclick="calcularDiametroCirculo() ">Get Diameter</button>
+                </div>
 
             </form>
-            </section>
+
         </div>
 
 
