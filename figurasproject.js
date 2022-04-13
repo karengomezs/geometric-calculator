@@ -91,3 +91,26 @@ function calcularAreaCirculo() {
     const area = areaCirculo(radio)
     alert(area)
 }
+
+//----------------------------------------------------------------------------------------------------------------
+const clickOption = document.querySelectorAll(".content__fig")
+clickOption.forEach(options => {
+
+    options.addEventListener("click", showFigure);
+
+});
+
+const geometricCards = document.querySelectorAll(".geometric")
+
+function showFigure() {
+    const arr = Array.from(geometricCards);
+
+    arr.forEach(card => {
+        card.classList.remove("geometric--active")
+    })
+
+    const element = arr.find(card => {
+        return this.dataset.geo === card.id
+    })
+    element.classList.add("geometric--active");
+}

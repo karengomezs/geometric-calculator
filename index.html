@@ -23,16 +23,16 @@
 
     <div class="content__container">
         <p class="content__paragraph content__paragraph--small">Select an option</p>
-        <div class="content__container">
-            <div>
-                <p class="content__figure">■ Cuadrado</p>
-            </div>
-            <div>
-                <p class="content__figure"> ▲ Triángulo</p>
-            </div>
-            <div>
-                <p class="content__figure">● Círculo</p>
-            </div>
+        <div class="content__container content__container--space ">
+            <button data-geo="square" class="content__fig">
+                <p class="content__figure">■ Square</p>
+            </button>
+            <button data-geo="triangle" class="content__fig">
+                <p class="content__figure"> ▲ Triangle</p>
+            </button>
+            <button data-geo="circle" class="content__fig">
+                <p class="content__figure">● Círcle</p>
+            </button>
         </div>
     </div>
 
@@ -40,7 +40,7 @@
 
     <div class="content__options">
 
-        <div class="geometric">
+        <div id="square" class="geometric">
             <h2 class="geometric__subtitle">Square</h2>
             <form class="geometric__form" action="">
                 <div class="geometric__item geometric__enounce">
@@ -63,7 +63,7 @@
 
         <!-- triangulo -->
 
-        <div class="geometric">
+        <div id="triangle" class="geometric">
             <h2 class="geometric__subtitle">Triangle</h2>
             <form class="geometric__form" action=" ">
                 <div class="geometric__item geometric__enounce">
@@ -109,7 +109,7 @@
 
         <!-- circulo -->
 
-        <div class="geometric">
+        <div id="circle" class="geometric">
             <h2 class="geometric__subtitle">Circle</h2>
             <form class="geometric__form" action=" ">
                 <div class="geometric__item geometric__enounce">
