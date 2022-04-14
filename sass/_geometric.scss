@@ -1,11 +1,13 @@
     .geometric {
         width: 20%;
-        height: 400px;
         background-color: white;
         flex-direction: column;
         border-radius: 15px;
         padding: 10px 20px;
         display: none;
+        & * {
+            margin-top: 5px;
+        }
         &__form {
             flex: 1;
             display: grid;
@@ -17,7 +19,7 @@
             font-size: 1.6rem;
         }
         &__form {
-            font-size: 1rem;
+            font-size: 0.8rem;
         }
         &__enounce {
             text-align: center;
@@ -30,6 +32,7 @@
             height: 30px;
             width: 200px;
             border-radius: 10px;
+            text-indent: 20px;
         }
         &__button {
             font-size: 1rem;
