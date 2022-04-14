@@ -4,7 +4,7 @@
         background-color: white;
         flex-direction: column;
         border-radius: 15px;
-        padding-bottom: 20px;
+        padding: 10px 20px;
         display: none;
         &__form {
             flex: 1;
@@ -13,7 +13,7 @@
             justify-items: center;
         }
         &__subtitle {
-            margin: 20px auto 10px auto;
+            margin: 0 auto;
             font-size: 1.6rem;
         }
         &__form {
