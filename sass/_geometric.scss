@@ -2,7 +2,6 @@
         width: 20%;
         height: 400px;
         background-color: white;
-        display: flex;
         flex-direction: column;
         border-radius: 15px;
         padding-bottom: 20px;
@@ -44,6 +43,6 @@
             }
         }
         &--active {
-            display: initial;
+            display: flex;
         }
     }
